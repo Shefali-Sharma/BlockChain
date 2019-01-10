@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity >=0.4.22 <0.6.0;
 contract StateTransV2 {
 
     enum Stage {Init, Reg, Vote, Done}
@@ -6,7 +6,7 @@ contract StateTransV2 {
     uint startTime;
     uint public timeNow;
     
-     function StateTransV2() public {
+     constructor() public {
        stage = Stage.Init;
       startTime = now;
     }
