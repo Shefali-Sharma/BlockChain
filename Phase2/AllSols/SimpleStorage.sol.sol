@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0; 
+pragma solidity >=0.4.22 <0.6.0;
 // Imagine a big integer that the whole world could share
 contract SimpleStorage {
     uint storedData;
