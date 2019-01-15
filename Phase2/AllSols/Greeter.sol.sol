@@ -1,10 +1,10 @@
-pragma solidity >=0.4.22 <0.6.0;
+pragma solidity ^0.4.0;
 
 contract Greeter  {
     string public yourName;  // data
     
     /* This runs when the contract is executed */
-   constructor() public {
+   function Greeter() public {
         yourName = "World";
     } 
     
